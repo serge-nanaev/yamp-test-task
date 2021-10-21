@@ -56,15 +56,23 @@
 		7F450A122721D0D60070BA1B /* YAMP-test */ = {
 			isa = PBXGroup;
 			children = (
+				7F450A292721DCFE0070BA1B /* TranslateScreen */,
 				7F450A132721D0D60070BA1B /* AppDelegate.swift */,
 				7F450A152721D0D60070BA1B /* SceneDelegate.swift */,
-				7F450A172721D0D60070BA1B /* ViewController.swift */,
 				7F450A192721D0D60070BA1B /* Main.storyboard */,
 				7F450A1C2721D0D90070BA1B /* Assets.xcassets */,
 				7F450A1E2721D0D90070BA1B /* LaunchScreen.storyboard */,
 				7F450A212721D0D90070BA1B /* Info.plist */,
 			);
 			path = "YAMP-test";
+			sourceTree = "<group>";
+		};
+		7F450A292721DCFE0070BA1B /* TranslateScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7F450A172721D0D60070BA1B /* ViewController.swift */,
+			);
+			path = TranslateScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
