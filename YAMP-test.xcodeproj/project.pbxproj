@@ -13,6 +13,7 @@
 		7F450A1B2721D0D60070BA1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F450A192721D0D60070BA1B /* Main.storyboard */; };
 		7F450A1D2721D0D90070BA1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F450A1C2721D0D90070BA1B /* Assets.xcassets */; };
 		7F450A202721D0D90070BA1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F450A1E2721D0D90070BA1B /* LaunchScreen.storyboard */; };
+		7F450A2B2721DDB30070BA1B /* VerySecretTranslateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F450A2A2721DDB30070BA1B /* VerySecretTranslateService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7F450A1C2721D0D90070BA1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F450A1F2721D0D90070BA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F450A212721D0D90070BA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F450A2A2721DDB30070BA1B /* VerySecretTranslateService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerySecretTranslateService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		7F450A292721DCFE0070BA1B /* TranslateScreen */ = {
 			isa = PBXGroup;
 			children = (
+				7F450A2A2721DDB30070BA1B /* VerySecretTranslateService.swift */,
 				7F450A172721D0D60070BA1B /* TranslateViewController.swift */,
 			);
 			path = TranslateScreen;
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F450A2B2721DDB30070BA1B /* VerySecretTranslateService.swift in Sources */,
 				7F450A182721D0D60070BA1B /* TranslateViewController.swift in Sources */,
 				7F450A142721D0D60070BA1B /* AppDelegate.swift in Sources */,
 				7F450A162721D0D60070BA1B /* SceneDelegate.swift in Sources */,
